@@ -12,7 +12,7 @@ public class Main {
         // }
 
         CustomerManager customerManager = new CustomerManager(new DatabaseLogger());
-
+        customerManager.add();
     }
 
 }
