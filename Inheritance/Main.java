@@ -12,6 +12,14 @@ public class Main {
         Employee employee = new Employee();
         employee.salary = 12999;
 
+        /////////////////////////////////
+
+        EmployeeManager employeeManager = new EmployeeManager();
+        employeeManager.Add();
+
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.mailList();
+
     }
 
 }
