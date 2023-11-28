@@ -1,4 +1,4 @@
-package overriding;
+package overridingClasses;
 
 public class OgrenciKrediManager extends BaseKrediManager {
 
